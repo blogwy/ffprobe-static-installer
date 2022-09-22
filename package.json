@@ -1,0 +1,56 @@
+{
+  "name": "ffprobe-static-installer",
+  "version": "5.1.0",
+  "description": "ffprobe static binaries for Mac OSX and Linux and Windows",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "install.js",
+    "example.js",
+    "types"
+  ],
+  "types": "types/index.d.ts",
+  "scripts": {
+    "install": "node install.js",
+    "test": "node test.js",
+    "lint": "eslint .",
+    "prepublishOnly": "npm run lint && npm run install && npm test"
+  },
+  "ffprobe-static-installer": {
+    "binary-release-tag": "b5.0.1",
+    "binary-release-name": "5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blogwy/ffprobe-static-installer"
+  },
+  "keywords": [
+    "ffprobe",
+    "static",
+    "library",
+    "binary",
+    "binaries",
+    "mac",
+    "linux",
+    "windows"
+  ],
+  "authors": [],
+  "contributors": [],
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/blogwy/ffprobe-static-installer/issues"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "@derhuerst/http-basic": "^8.2.0",
+    "env-paths": "^2.2.0",
+    "https-proxy-agent": "^5.0.0",
+    "progress": "^2.0.3"
+  },
+  "devDependencies": {
+    "any-shell-escape": "^0.1.1",
+    "eslint": "^8.6.0"
+  }
+}
