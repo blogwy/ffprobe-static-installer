@@ -1,6 +1,6 @@
 {
   "name": "ffprobe-static-installer",
-  "version": "5.1.0",
+  "version": "5.1.2",
   "description": "ffprobe static binaries for Mac OSX and Linux and Windows",
   "main": "index.js",
   "files": [

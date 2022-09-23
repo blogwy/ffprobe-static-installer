@@ -167,7 +167,7 @@ const downloadsUrl = (
 	'https://github.com/blogwy/ffprobe-static-installer/releases/download'
 )
 const baseUrl = `${downloadsUrl}/${release}`
-const downloadUrl = `${baseUrl}/${platform}-${arch}.gz`
+const downloadUrl = `${baseUrl}/${platform}-${arch}`
 
 downloadFile(downloadUrl, ffprobePath, onProgress)
 .then(() => {
