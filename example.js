@@ -10,7 +10,7 @@ const argv = process.argv.slice(2)
 if (argv.includes('-h') || argv.includes('--help')) {
 	console.info(`
 This is just a simple CLI wrapper around the powerful ffmpeg CLI tool.
-This script just showcases how to use ffmpeg-static; It wouldn't make
+This script just showcases how to use ffprobe-static-installer; It wouldn't make
 sense to hide a flexible tool behind a limited wrapper script.
 Usage:
 	./example.js <src> <dest>

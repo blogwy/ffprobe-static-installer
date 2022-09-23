@@ -22,12 +22,11 @@ By default, the `ffprobe` binary will get downloaded from `https://github.com/bl
 
 ```shell
 export FFPROBE_BINARIES_URL=https://ghproxy.com/https://github.com/blogwy/ffprobe-static-installer/releases/download/
-npm install ffmpeg-static
 ```
 
 ### Electron & other cross-platform packaging tools
 
-Because `ffmpeg-static` will download a binary specific to the OS/platform, you need to purge `node_modules` before (re-)packaging your app *for a different OS/platform* ([read more in #35](https://github.com/eugeneware/ffmpeg-static/issues/35#issuecomment-630225392)).
+Because `ffprobe-static-installer` will download a binary specific to the OS/platform, you need to purge `node_modules` before (re-)packaging your app *for a different OS/platform* ([read more in #35](https://github.com/eugeneware/ffmpeg-static/issues/35#issuecomment-630225392)).
 
 ## Example Usage
 
