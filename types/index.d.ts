@@ -1,2 +1,2 @@
-declare const ffmpegPath: string | null;
-export default ffmpegPath;
+declare const ffprobePath: string | null;
+export default ffprobePath;

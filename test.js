@@ -11,7 +11,7 @@ console.info('TAP version 12')
 console.info('1..4')
 
 ok(isAbsolute(ffprobePath))
-console.info('ok 1 - ffmpeg path is absolute')
+console.info('ok 1 - ffprobe path is absolute')
 
 ok(fs.statSync(ffprobePath).isFile(ffprobePath))
 console.info(`ok 2 - ${ffprobePath} is a file`)
