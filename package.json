@@ -1,6 +1,6 @@
 {
   "name": "ffprobe-static-installer",
-  "version": "5.1.4",
+  "version": "5.2.0",
   "description": "ffprobe static binaries for Mac OSX and Linux and Windows",
   "main": "index.js",
   "files": [
@@ -17,8 +17,8 @@
     "prepublishOnly": "npm run lint && npm run install && npm test"
   },
   "ffprobe-static-installer": {
-    "binary-release-tag": "b5.0.1",
-    "binary-release-name": "5.0.1"
+    "binary-release-tag": "5.1.1",
+    "binary-release-name": "5.1.1"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,7 @@
   ],
   "authors": [],
   "contributors": [],
-  "license": "GPL-3.0-or-later",
+  "license": "MIT License",
   "bugs": {
     "url": "https://github.com/blogwy/ffprobe-static-installer/issues"
   },

@@ -2,11 +2,9 @@
 
 **[ffmpeg](https://ffmpeg.org) static binaries for Mac OSX, Linux, Windows.**
 
-Supports macOS (64-bit and arm64), Linux (32 and 64-bit, armhf, arm64), Windows (32 and 64-bit). [The ffmpeg version currently used is `5.0.1`.](https://github.com/blogwy/ffprobe-static-installer/releases/tag/b5.0.1)
+Supports macOS (64-bit and arm64), Linux (32 and 64-bit, armhf, arm64), Windows (32 and 64-bit).
 
 **This project is a fork of [ffmpeg-static](https://github.com/eugeneware/ffmpeg-static)**
-
-**Binaries from [node-ffprobe-installer](https://github.com/SavageCore/node-ffprobe-installer)**
 
 ## Installation
 
@@ -42,6 +40,14 @@ console.log(pathToFFprobe);
 ```
 
 Check the [example script](example.js) for a more thorough example.
+
+## The binaries
+
+* Linux (arm, arm64, ia32, x64): https://www.johnvansickle.com/ffmpeg/
+* macOS (x64): https://evermeet.cx/ffmpeg/
+* macOS (arm64): https://formulae.brew.sh/formula/ffmpeg
+* Windows 32-bit: https://github.com/sudo-nautilus/FFmpeg-Builds-Win32/
+* Windows 64-bit: https://www.gyan.dev/ffmpeg/builds/
 
 ## Thanks
 
