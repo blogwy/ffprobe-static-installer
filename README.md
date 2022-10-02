@@ -19,7 +19,7 @@ $ npm install ffprobe-static-installer
 By default, the `ffprobe` binary will get downloaded from `https://github.com/blogwy/ffprobe-static-installer/releases/download/`. To customise this, e.g. when using a mirror, set the `FFPROBE_BINARIES_URL` environment variable.
 
 ```shell
-export FFPROBE_BINARIES_URL=https://ghproxy.com/https://github.com/blogwy/ffprobe-static-installer/releases/download/
+export FFPROBE_BINARIES_URL=https://ghproxy.com/https://github.com/blogwy/ffprobe-static-installer/releases/download
 ```
 
 ### Electron & other cross-platform packaging tools
